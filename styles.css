@@ -1,0 +1,26 @@
+* {
+    background-color: #000000;
+}
+
+.wrapper {
+    margin: 10% auto 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 30%;
+    animation: spin 10s linear infinite;
+    display: list-item;
+}
+
+.pedro {
+    scale: 1.2;
+    animation: bounce 200ms linear infinite alternate;
+    width: 100%;
+}
+
+@keyframes bounce {
+    to { translate: 0 20px; }
+}
+
+@keyframes spin {
+    to { rotate: -1turn; }
+}
