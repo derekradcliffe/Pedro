@@ -8,7 +8,7 @@
     border-radius: 50%;
     width: 30%;
     animation: spin 10s linear infinite;
-    display: list-item;
+    display: block;
 }
 
 .pedro {
