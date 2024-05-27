@@ -2,6 +2,12 @@
     background-color: #000000;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
     margin: 10% auto 0 auto;
     overflow: hidden;
@@ -15,6 +21,12 @@
     scale: 1.2;
     animation: bounce 200ms linear infinite alternate;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    } 
 }
 
 @keyframes bounce {
